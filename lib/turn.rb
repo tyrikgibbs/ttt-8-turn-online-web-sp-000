@@ -39,7 +39,10 @@ def turn (board)
   index = input_to_index (user_input)
   spot = index.to_i
   if spot.between?(0,8) && valid_move?(board, index)
+<<<<<<< HEAD
     move(board, index, value = "X")
+=======
+>>>>>>> a4b45ee7a2c4d4b08a0239b19ac2dcab1b97d956
     display_board(board)
   else
     gets.strip

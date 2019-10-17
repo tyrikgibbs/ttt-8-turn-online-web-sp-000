@@ -9,3 +9,10 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
+<<<<<<< HEAD
+=======
+user_input = gets.strip
+index = input_to_index (user_input)
+move(board, index, "X")
+display_board(board)
+>>>>>>> a4b45ee7a2c4d4b08a0239b19ac2dcab1b97d956
